@@ -2,6 +2,8 @@
 
 ป้อบอัพเว็บเมื่อจิ้มปุ่ม
 
+![alt text](https://raw.githubusercontent.com/kaozaza2/DialogWebView-Smali/master/Screenshots/01.gif)
+
 ใช้ ApkTool 2.0
 
 ดาวน์โหลด
