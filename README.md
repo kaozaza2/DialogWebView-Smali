@@ -28,7 +28,7 @@
 7. เป็ดไฟล์ com/paper/PopupWebView/PopView.smali
 8. หา http://www.google.com แล้วแก้เป็นเว็บที่จะเปลี่ยน
 9. เปิดไฟล์ layout หน้าหลัก
-10. ก้อบ โค้ดด้านล่างไปใส่000
+10. ก้อบ โค้ดด้านล่างไปใส่
 ```html
 <Button
 android:layout_width="wrap_content"
