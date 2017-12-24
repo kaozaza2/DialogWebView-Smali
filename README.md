@@ -42,5 +42,7 @@ android:onClick="popView" />
 11. Recompile จบ
 
 # แก้ดูหน้าเว็บไม่ได้
-เพิ่ม ``` <uses-permission android:name="android.permission.INTERNET"/>```
-ใส่ใน AndroidManifest.xml
+เพิ่มโค้ดข้างล่างใส่ใน AndroidManifest.xml
+```html
+<uses-permission android:name="android.permission.INTERNET"/>
+```
