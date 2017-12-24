@@ -6,8 +6,11 @@
 
 ใช้ ApkTool 2.0
 
-ดาวน์โหลด
+# ดาวน์โหลด
+<a href="https://github.com/kaozaza2/DialogWebView-Smali/archive/master.zip">Here!!!</a>
 
+
+# How to
 1. Decompile App.apk
 2. คัดลอกโฟลเดอร์ com ไปใส่ในโฟลเดอร์ smali
 3. เปิด AndroidManifest.xml แล้วหา <category android:name="android.intent.category.LAUNCHER" />
