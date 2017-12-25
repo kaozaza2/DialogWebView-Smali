@@ -1,11 +1,17 @@
-# DialogWebView-Smali ApkTool 2.0
+# DialogWebView-Smali
 ป้อบอัพเว็บเมื่อจิ้มปุ่ม **ไว้ใช้แนวพวกแจ้งเตือน**  
 
 ![alt text](https://raw.githubusercontent.com/kaozaza2/DialogWebView-Smali/master/Screenshots/01.gif)
 
 **Update to V2.0**  #ลบอันเก่าออกแล้วใส่อันใหม่
+
 # ดาวน์โหลด
 <a href="https://github.com/kaozaza2/DialogWebView-Smali/archive/master.zip">Here!!!</a>
+
+# สิ่งที่ต้องใช้
+1. ApkTool 2.0
+2. คอมหรือโทรศัพท์
+3. เวลาว่าง "มากๆ"
 
 # How to
 1. Decompile App.apk
