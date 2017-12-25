@@ -1,6 +1,7 @@
 # DialogWebView-Smali
 ป้อบอัพเว็บเมื่อจิ้มปุ่ม **ไว้ใช้แนวพวกแจ้งเตือน**  
-ใช้ ApkTool 2.0 **Update to V2.0**  #ลบอันเก่าออกแล้วใส่อันใหม่
+ใช้ ApkTool 2.0
+**Update to V2.0**  #ลบอันเก่าออกแล้วใส่อันใหม่
 
 ![alt text](https://raw.githubusercontent.com/kaozaza2/DialogWebView-Smali/master/Screenshots/01.gif)
 
