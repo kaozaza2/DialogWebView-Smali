@@ -24,6 +24,7 @@
 # direct methods
 .method constructor <init>(Landroid/webkit/WebView;)V
     .locals 0
+
     iput-object p1, p0, Lcom/paper/PopupWebView/PopView$3;->val$webView:Landroid/webkit/WebView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,9 +48,11 @@
     move-result v0
 
     if-eqz v0, :cond_0
+
     iget-object v0, p0, Lcom/paper/PopupWebView/PopView$3;->val$webView:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->goBack()V
+
     :cond_0
     const/4 v0, 0x1
 
