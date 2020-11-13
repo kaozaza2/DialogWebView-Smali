@@ -35,16 +35,11 @@
 # virtual methods
 .method public shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
     .locals 1
-    .param p1, "view"    # Landroid/webkit/WebView;
-    .param p2, "url"    # Ljava/lang/String;
 
-    .prologue
-    .line 27
     iget-object v0, p0, Lcom/paper/PopupWebView/PopView$1;->val$webView:Landroid/webkit/WebView;
 
     invoke-virtual {v0, p2}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 28
     invoke-super {p0, p1, p2}, Landroid/webkit/WebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
 
     move-result v0
