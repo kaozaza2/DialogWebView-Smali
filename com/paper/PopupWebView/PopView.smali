@@ -14,7 +14,6 @@
 
 .method public static PopView(Landroid/view/View;)V
     .locals 7
-    .param p0, "v"    # Landroid/view/View;
 
     const/4 v5, 0x1
 
