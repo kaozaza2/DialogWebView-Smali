@@ -24,9 +24,6 @@
 # direct methods
 .method constructor <init>(Landroid/webkit/WebView;)V
     .locals 0
-
-    .prologue
-    .line 52
     iput-object p1, p0, Lcom/paper/PopupWebView/PopView$3;->val$webView:Landroid/webkit/WebView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,12 +35,7 @@
 # virtual methods
 .method public onKey(Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
     .locals 1
-    .param p1, "dialogInterface"    # Landroid/content/DialogInterface;
-    .param p2, "i"    # I
-    .param p3, "keyEvent"    # Landroid/view/KeyEvent;
 
-    .prologue
-    .line 55
     const/4 v0, 0x4
 
     if-ne p2, v0, :cond_0
@@ -55,13 +47,9 @@
     move-result v0
 
     if-eqz v0, :cond_0
-
-    .line 56
     iget-object v0, p0, Lcom/paper/PopupWebView/PopView$3;->val$webView:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->goBack()V
-
-    .line 58
     :cond_0
     const/4 v0, 0x1
 
