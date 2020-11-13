@@ -22,8 +22,6 @@
 .method constructor <init>(Landroid/webkit/WebView;)V
     .locals 0
 
-    .prologue
-    .line 24
     iput-object p1, p0, Lcom/paper/PopupWebView/PopView$1;->val$webView:Landroid/webkit/WebView;
 
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
