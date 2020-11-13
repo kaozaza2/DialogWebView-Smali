@@ -24,6 +24,7 @@
 # direct methods
 .method constructor <init>(Landroid/view/View;)V
     .locals 0
+
     iput-object p1, p0, Lcom/paper/PopupWebView/PopView$2;->val$v:Landroid/view/View;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -35,6 +36,7 @@
 # virtual methods
 .method public onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
     .locals 2
+
     new-instance v0, Landroid/content/Intent;
 
     const-string/jumbo v1, "android.intent.action.VIEW"
