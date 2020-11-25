@@ -5,7 +5,6 @@
 # interfaces
 .implements Landroid/content/DialogInterface$OnKeyListener;
 
-
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Lcom/paper/PopupWebView/PopView;->PopView(Landroid/view/View;)V
@@ -16,10 +15,8 @@
     name = null
 .end annotation
 
-
 # instance fields
 .field final synthetic val$webView:Landroid/webkit/WebView;
-
 
 # direct methods
 .method constructor <init>(Landroid/webkit/WebView;)V
@@ -31,7 +28,6 @@
 
     return-void
 .end method
-
 
 # virtual methods
 .method public onKey(Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
