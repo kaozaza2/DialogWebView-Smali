@@ -5,7 +5,6 @@
 # interfaces
 .implements Landroid/webkit/DownloadListener;
 
-
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Lcom/paper/PopupWebView/PopView;->PopView(Landroid/view/View;)V
@@ -16,10 +15,8 @@
     name = null
 .end annotation
 
-
 # instance fields
 .field final synthetic val$v:Landroid/view/View;
-
 
 # direct methods
 .method constructor <init>(Landroid/view/View;)V
@@ -31,7 +28,6 @@
 
     return-void
 .end method
-
 
 # virtual methods
 .method public onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
