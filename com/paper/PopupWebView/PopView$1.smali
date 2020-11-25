@@ -2,7 +2,6 @@
 .super Landroid/webkit/WebViewClient;
 .source "PopView.java"
 
-
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Lcom/paper/PopupWebView/PopView;->PopView(Landroid/view/View;)V
@@ -13,10 +12,8 @@
     name = null
 .end annotation
 
-
 # instance fields
 .field final synthetic val$webView:Landroid/webkit/WebView;
-
 
 # direct methods
 .method constructor <init>(Landroid/webkit/WebView;)V
@@ -28,7 +25,6 @@
 
     return-void
 .end method
-
 
 # virtual methods
 .method public shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
