@@ -2,7 +2,6 @@
 .super Ljava/lang/Object;
 .source "PopView.java"
 
-
 # direct methods
 .method public constructor <init>()V
     .locals 0
